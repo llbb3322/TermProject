@@ -1,0 +1,31 @@
+﻿  draw.cpp
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\goalnet.h(38): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\goalnet.h(41): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\goalnet.h(114): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\goalnet.h(120): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\goalnet.h(124): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\goalnet.h(130): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\draw.cpp(10): warning C4244: '인수': 'const double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\draw.cpp(14): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\draw.cpp(21): warning C4244: '인수': 'const double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\draw.cpp(25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\draw.cpp(26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kim-jinhyuk\source\repos\soccer\soccer\draw.cpp(34): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+main.obj : error LNK2019: __imp__glutInitWindowPosition@8 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutInitWindowSize@8 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutInitDisplayMode@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutMainLoop@0 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutPostRedisplay@0 외부 기호(참조 위치: "void __cdecl Update(int)" (?Update@@YAXH@Z) 함수)에서 확인하지 못했습니다.
+viewer.obj : error LNK2001: __imp__glutPostRedisplay@0 외부 기호를 확인할 수 없습니다.
+main.obj : error LNK2019: __imp__glutTimerFunc@12 외부 기호(참조 위치: "void __cdecl Update(int)" (?Update@@YAXH@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutKeyboardFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutReshapeFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutDisplayFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutMouseFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__glutMotionFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp____glutInitWithExit@12 외부 기호(참조 위치: _glutInit_ATEXIT_HACK@8 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp____glutCreateWindowWithExit@8 외부 기호(참조 위치: _glutCreateWindow_ATEXIT_HACK@4 함수)에서 확인하지 못했습니다.
+viewer.obj : error LNK2019: __imp__glutSwapBuffers@0 외부 기호(참조 위치: "public: void __thiscall Viewer::Render(void)" (?Render@Viewer@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+..\lib\GL\glew32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+..\lib\GL\freeglut.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\kim-jinhyuk\source\repos\Soccer\Debug\Soccer.exe : fatal error LNK1120: 14개의 확인할 수 없는 외부 참조입니다.
